@@ -1,0 +1,11 @@
+[package]
+name = "euler"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+strip = true
+panic = "abort"
+
+[dependencies]
+rayon = "^1.5.3"
